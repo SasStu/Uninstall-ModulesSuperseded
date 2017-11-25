@@ -32,6 +32,7 @@ InModuleScope -ModuleName Uninstall-ModulesSuperseded {
             Assert-MockCalled -CommandName Uninstall-Module -Scope It -ParameterFilter {$Name -eq 'TestA' -and $RequiredVersion -eq '10.0.0'} -Times 0
 
             Assert-VerifiableMocks
+            #fgdh#
         }
     }
 }
