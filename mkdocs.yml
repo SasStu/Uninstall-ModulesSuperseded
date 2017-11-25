@@ -1,0 +1,9 @@
+site_name: Uninstall-ModulesSuperseded
+repo_url: https://github.com/sasstu/Uninstall-ModulesSuperseded
+theme: readthedocs
+pages:
+  - Home: index.md
+  - Uninstall-ModulesSuperseded Basics:
+    - What is Uninstall-ModulesSuperseded: about.md
+    - Quick Start: Quick-Start-Installation-and-Example.md
+  - Acknowledgements: acknowledgements.md
