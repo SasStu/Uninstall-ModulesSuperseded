@@ -1,5 +1,7 @@
 # What is Uninstall-ModulesSuperseded
 
-Uninstalls every module version except the latest. It is a cleanup script for the local module folders.
+Uninstall-ModulesSuperseded is a cleanup script for your local PS module folders. It uninstalls every module version except the latest.
+
+If superseded module versions are installed for AllUsers administraive rights are required to successufully uninstall the modules.
 
 Authored by Sascha Stumpler
