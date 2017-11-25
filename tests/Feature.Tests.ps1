@@ -1,7 +1,7 @@
 $projectRoot = Resolve-Path "$PSScriptRoot\.."
 $script:ModuleName = 'Uninstall-ModulesSuperseded'
 
-Remove-Module Uninstall-ModulesSuperseded
+if (get-module $Modulename) {Remove-Module $Modulename}
 Import-Module "$projectRoot\$Modulename\$modulename.psm1"
 Import-Module PowerShellGet
 
