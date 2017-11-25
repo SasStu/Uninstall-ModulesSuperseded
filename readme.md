@@ -1,3 +1,4 @@
+![Build status](https://ci.appveyor.com/api/projects/status/xfhjscnra89lcj4l?svg=true)
 # Uninstall-ModulesSuperseded
 
 Uninstalls every module version except the latest
