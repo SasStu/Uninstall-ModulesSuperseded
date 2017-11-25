@@ -1,4 +1,4 @@
-#Requires -Modules BuildHelpers
+#Requires -Modules BuildHelpers, PSDeploy
 $script:ModuleName = 'Uninstall-ModulesSuperseded'
 
 $script:Source = Join-Path $BuildRoot $ModuleName

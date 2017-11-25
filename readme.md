@@ -1,4 +1,4 @@
-![Build status](https://ci.appveyor.com/api/projects/status/xfhjscnra89lcj4l?svg=true)
+![Build status](https://ci.appveyor.com/api/projects/status/xfhjscnra89lcj4l?svg=true) ![Documentation Status](https://readthedocs.org/projects/uninstall-modulessuperseded/badge/?version=latest)](http://uninstall-modulessuperseded.readthedocs.io/en/latest/badge=latest) 
 # Uninstall-ModulesSuperseded
 
 Uninstalls every module version except the latest
