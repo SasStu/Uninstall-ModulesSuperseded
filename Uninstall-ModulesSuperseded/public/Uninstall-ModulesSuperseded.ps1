@@ -2,16 +2,19 @@ function Uninstall-ModulesSuperseded
 {
     <#
     .SYNOPSIS
-    This module uninstalls every module version except the latest
+    This module uninstalls every module version except the latest of that module
     
     .DESCRIPTION
-    The function checks all availabale modules and unsinatlls every version except the latest.
+    The function checks all availabale modules and uninstalls every version except the latest of a module.
+    
+    .EXAMPLE
+    Uninstall-ModulesSuperseded
     
     .EXAMPLE
     Uninstall-ModulesSuperseded -WhatIf
     
     .NOTES
-    Administrator privileges are required to uninstall modules which are installed in the Computer Scope.
+    Administrator privileges are required to uninstall modules which are installed in AllUsers Scope.
     #>
     [cmdletbinding(SupportsShouldProcess)]
     param()  
