@@ -17,3 +17,7 @@ build: false
 #Kick off the CI/CD pipeline
 test_script:
   - ps: . .\build.ps1
+
+ # scripts to run after tests
+after_test:
+  - ps: (New-Object 'System.Net.WebClient').UploadFile("https://ci.appveyor.com/api/testresults/nunit/$($env:APPVEYOR_JOB_ID)", (Resolve-Path (get-childitem -Path (Resolve-Path .\output) -Filter TestResults* | Sort-Object -Property LastWriteTime -Descending)[0].FullName))
